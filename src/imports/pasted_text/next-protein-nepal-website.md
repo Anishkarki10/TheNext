@@ -1,0 +1,1031 @@
+ Create a complete responsive website and reusable Figma design system for a Nepalese plant-based protein brand called:
+
+“THE NEXT PROTEIN NEPAL”
+
+IMPORTANT BRAND-NAME RULE
+Use “The Next Protein Nepal” in the design because that is the wording shown in the supplied logo. Do not use “The Next Protein in Nepal” unless the client later confirms that as the official name.
+
+PROJECT TYPE
+Create a modern product-catalogue, brand-story and enquiry website.
+
+This is not a full e-commerce store.
+
+Do not include:
+- Shopping cart
+- Checkout
+- Online payments
+- Customer accounts
+- Add to Cart buttons
+- Order-history interface
+- Shipping or refund pages
+
+The website should allow visitors to:
+- Discover the brand
+- Browse plant-based products
+- View detailed product information
+- Read verified nutrition information
+- Learn about plant-based protein
+- Read blog articles
+- Submit general enquiries
+- Submit wholesale and partnership enquiries
+- Contact the company through WhatsApp, telephone and email
+- Find the company’s Lalitpur location
+
+REFERENCE DIRECTION
+The client likes the strong product storytelling, oversized typography, food photography and nutritional presentation used by premium plant-based brands such as Beyond Meat and Imagine Foods.
+
+Take inspiration from that category, but create an original brand identity and layout. Do not reproduce another company’s design, wording, illustrations, page composition or trade dress.
+
+BRAND POSITIONING
+The Next Protein Nepal is a Nepalese food-innovation company producing high-protein, plant-based meat alternatives.
+
+Primary product:
+Protein Loaf
+
+Primary audiences:
+- Health-conscious consumers
+- Vegans
+- Vegetarians
+- Flexitarians
+- Fitness enthusiasts
+- Families
+- Restaurants
+- Cafés
+- Hotels
+- Retailers
+- Distributors
+- Gyms and fitness businesses
+
+BRAND PERSONALITY
+- Bold
+- Strong
+- Modern
+- Natural
+- Innovative
+- Trustworthy
+- Accessible
+- Proudly Nepalese
+- Performance-focused
+- Sustainable without appearing overly corporate
+
+TAGLINE
+“Feeding the Future”
+
+LOGO ANALYSIS AND USAGE
+Use the supplied logo without redrawing or changing its wording.
+
+The logo combines:
+- A flexed muscular arm
+- Leaves
+- A stylised “N”
+- Bold uppercase typography
+- Forest green
+- Earthy dark brown
+- A warm cream background
+
+The arm communicates strength and protein.
+The leaves communicate plant-based ingredients and sustainability.
+The brown and green communicate natural food and earth.
+The typography communicates confidence and performance.
+
+Create logo placements for:
+- Full horizontal logo
+- Dark-background header
+- Light-background header
+- Mobile header
+- Footer
+- Favicon/symbol placeholder
+
+Do not stretch, recolour, crop or distort the supplied logo.
+
+Because the supplied logo is horizontally wide, keep enough clear space around it. Use a temporary compact symbol placeholder for mobile until the client supplies an official symbol-only version.
+
+Do not place the textured JPEG rectangle directly over a differently coloured background. Assume that the final logo will be supplied as SVG or transparent PNG.
+
+COLOR SYSTEM
+Base the website colours on the logo.
+
+Primary forest green:
+#264F24
+
+Deep green:
+#173A22
+
+Natural leaf green:
+#557A35
+
+Earth brown:
+#30251D
+
+Warm cream:
+#F5EDE1
+
+Soft beige:
+#E8DDCD
+
+Off-white:
+#FCFAF6
+
+Charcoal:
+#22231F
+
+Muted text:
+#676A61
+
+Use light green for small highlights:
+#A8C879
+
+Do not use red anywhere in the design. The client specifically asked to avoid red.
+
+Avoid excessive bright green. The website should feel premium and food-focused rather than like a cheap supplement shop.
+
+TYPOGRAPHY
+Use a strong condensed or geometric display font for major headings:
+- Archivo Black
+- Barlow Condensed
+- League Spartan
+- Anton, used carefully
+
+Use a clean, highly readable body font:
+- Manrope
+- Inter
+- DM Sans
+- Plus Jakarta Sans
+
+Suggested pairing:
+- League Spartan for headings
+- Manrope for body copy and interface elements
+
+Use:
+- Oversized uppercase headlines
+- Strong contrast between display and body text
+- Short readable paragraphs
+- Comfortable line spacing
+- Clear numerical typography for nutrition data
+
+DESIGN LANGUAGE
+Create a visually rich editorial food website using:
+- Large food photography
+- Close-up product textures
+- Product packaging cutouts
+- Natural ingredient photography
+- Rounded organic shapes inspired by leaves
+- Strong grid-based layouts
+- Alternating cream, white and deep-green sections
+- Oversized nutritional numbers
+- Subtle paper or grain texture
+- Controlled shadows
+- Bold full-width section transitions
+- Taste-focused and Nepalese food imagery
+- Minimal line icons
+
+Avoid:
+- Generic stock photographs of people holding salads
+- Excessive leaf decoration
+- Cartoon vegetables
+- Neon fitness aesthetics
+- Clinical hospital styling
+- Dense information cards everywhere
+- Red accents
+- Fake certification seals
+- Unverified statistics
+- Fake testimonials
+
+FIGMA FILE STRUCTURE
+Create these organised Figma pages:
+
+1. Cover
+2. Foundations
+3. Components
+4. Desktop Pages
+5. Tablet Pages
+6. Mobile Pages
+7. Prototype Flow
+8. Developer Handoff
+
+FOUNDATIONS PAGE
+Include:
+- Brand colour styles
+- Typography scale
+- Spacing system
+- 8-point grid
+- Border-radius system
+- Shadow styles
+- Icon style
+- Photography direction
+- Logo clear-space rules
+- Responsive breakpoints
+- Accessibility notes
+
+DESKTOP GRID
+Frame width: 1440 px
+Maximum content width: 1240 px
+Grid: 12 columns
+Outer margins: 80–100 px
+Column gap: 24 px
+
+TABLET GRID
+Frame width: 768 px
+Grid: 8 columns
+Outer margin: 32 px
+Column gap: 20 px
+
+MOBILE GRID
+Frame width: 390 px
+Grid: 4 columns
+Outer margin: 20 px
+Column gap: 16 px
+
+GLOBAL HEADER
+Design a sticky header.
+
+Desktop header:
+- Full logo on the left
+- Home
+- Products
+- About Us
+- Protein Guide
+- Blog
+- FAQs
+- Contact
+- “Partner With Us” primary button
+- Search icon
+- Optional WhatsApp icon
+
+Do not include:
+- Cart
+- Account
+- Checkout
+- Price total
+
+Create:
+- Transparent header over hero
+- Solid cream header after scrolling
+- Dark-green header variant
+- Mobile hamburger menu
+- Active navigation state
+- Hover and keyboard-focus states
+
+HOME PAGE
+
+SECTION 1 — HERO
+Create a bold, cinematic hero section.
+
+Use:
+- A high-resolution photograph of cooked Protein Loaf
+- Show it prepared in an appetising Nepalese or international meal
+- Possible dishes: sekuwa-style skewers, curry, burger, stir-fry or momo filling
+- Include product packaging if supplied
+- Use a deep-green or warm-cream background
+- Use subtle grain texture matching the logo
+
+Main headline:
+“THE FUTURE OF PROTEIN STARTS HERE.”
+
+Supporting line:
+“100% Plant-Based. 100% Delicious.”
+
+Supporting paragraph:
+“Discover a healthier and more sustainable way to enjoy meat. The Next Protein Nepal creates premium plant-based meat with satisfying texture, versatile flavour and protein-powered nutrition.”
+
+Primary button:
+“Explore Our Products”
+
+Secondary button:
+“Discover Plant-Based Living”
+
+Small label:
+“Proudly Made in Nepal”
+
+Include the tagline:
+“Feeding the Future”
+
+Do not overcrowd the hero with every product benefit.
+
+SECTION 2 — BENEFIT STRIP
+Create a horizontal benefit strip or scrolling mobile ticker containing:
+
+- 100% Plant-Based
+- 21.37 g Protein per 100 g
+- Cholesterol Free
+- Meat-Like Texture
+- Easy to Cook
+- Made in Nepal
+
+Only use “21.37 g protein per 100 g” because that is the laboratory value currently provided.
+
+Do not use “soy-free” or “gluten-free.”
+
+SECTION 3 — FEATURED PRODUCT
+Heading:
+“MEET PROTEIN LOAF”
+
+Product description:
+“Our signature Protein Loaf is a versatile vegan meat alternative crafted primarily from wheat protein, soybeans and mixed beans. Slice it, dice it, marinate it, grill it or add it to your favourite meal.”
+
+Show:
+- Large packaging image
+- Product outside the packaging
+- Cooked product close-up
+- Product name
+- 500 g package size
+- Retail price: NPR 450
+- 21.37 g protein per 100 g
+- 0.52 g total fat per 100 g
+- 0 cholesterol
+- Approximately five servings
+- 100 g serving size
+- Available status
+- “View Product Details” button
+- “Enquire on WhatsApp” button
+
+Do not include an Add to Cart button.
+
+SECTION 4 — PRODUCT VERSATILITY
+Heading:
+“ONE LOAF. COUNTLESS POSSIBILITIES.”
+
+Supporting text:
+“Cook it your way and bring plant-powered protein to the meals you already love.”
+
+Create an interactive visual gallery or tabbed section showing:
+- Curry
+- Momos
+- Sekuwa
+- Burgers
+- Stir-fries
+- Sandwiches and wraps
+- Noodles
+- BBQ dishes
+
+Use real commissioned product photography when available. Until then, label images as temporary placeholders.
+
+SECTION 5 — NUTRITION HIGHLIGHT
+Heading:
+“POWERED BY PLANTS. BUILT FOR REAL MEALS.”
+
+Use oversized nutritional numbers:
+
+- 21.37 g protein
+- 19.19 g carbohydrate
+- 0.52 g total fat
+- 0 cholesterol
+
+Label clearly:
+“Values per 100 g”
+
+Add:
+“Laboratory analysed by Miron Laboratory and Research Centre.”
+
+Do not show values as “per serving” unless the serving is confirmed as exactly 100 g.
+
+Do not show unsupported values for fibre, sodium, saturated fat or calories.
+
+Add button:
+“View Full Nutrition Information”
+
+SECTION 6 — BRAND STORY
+Heading:
+“PROUDLY NEPALESE. MADE FOR THE FUTURE.”
+
+Use this condensed website copy:
+
+“The Next Protein Nepal was founded with a bold vision: to make delicious, nutritious and sustainable plant-based meat accessible to everyone. By combining food innovation with carefully selected ingredients, we create products with satisfying taste and texture for the meals Nepal already loves.”
+
+Include:
+- Manufacturing or kitchen photograph
+- Ingredient photograph
+- “Our Story” button
+
+SECTION 7 — WHY PLANT-BASED
+Heading:
+“BETTER CHOICES START ON YOUR PLATE.”
+
+Create four editorial panels:
+- Nutrition
+- Versatility
+- Animal welfare
+- Responsible food innovation
+
+Keep environmental language general unless verified environmental data is supplied.
+
+Do not show invented percentages for:
+- Water savings
+- Carbon reduction
+- Land savings
+- Emission reduction
+
+SECTION 8 — MADE FOR DIFFERENT CUSTOMERS
+Heading:
+“PROTEIN FOR EVERY TABLE”
+
+Create four audience cards:
+- Home Kitchens
+- Fitness Lifestyles
+- Restaurants and Cafés
+- Retail and Distribution
+
+Each card should have:
+- Relevant photograph
+- Short description
+- Appropriate CTA
+
+SECTION 9 — PARTNERSHIP
+Use a deep-green background.
+
+Heading:
+“LET’S GROW THE FUTURE OF FOOD TOGETHER.”
+
+Text:
+“We work with restaurants, cafés, hotels, retailers, distributors and fitness businesses looking to offer innovative plant-based protein.”
+
+Buttons:
+- “Become a Partner”
+- “Wholesale Enquiry”
+
+SECTION 10 — BLOG PREVIEW
+Heading:
+“THE PROTEIN JOURNAL”
+
+Show three initial article cards:
+
+1. “What Is Seitan? Everything You Need to Know”
+2. “Why Plant-Based Protein Is the Future of Food”
+3. “Delicious Nepalese Meals Using Plant-Based Meat”
+
+Each card:
+- Featured image
+- Category
+- Article title
+- Short excerpt
+- Reading-time placeholder
+- “Read Article” link
+
+Do not use “10 Health Benefits of Plant-Based Meat” until its medical and nutrition claims have been professionally reviewed.
+
+SECTION 11 — CONTACT STRIP
+Heading:
+“CURIOUS ABOUT THE NEXT PROTEIN?”
+
+Include:
+- Call button
+- WhatsApp button
+- Email button
+- Location button
+
+Details:
+Email: thenextproteinnepal@gmail.com
+Phone: +977 9714504317
+WhatsApp: +977 9714504317
+Address: Kusunti-14, Lalitpur, Nepal
+
+SECTION 12 — FOOTER
+Use a deep forest-green background.
+
+Include:
+- Full light-version logo placeholder
+- Tagline: “Feeding the Future”
+- Short business description
+- Home
+- Products
+- About Us
+- Protein Guide
+- Blog
+- FAQs
+- Contact
+- Wholesale Enquiry
+- Terms and Conditions
+- Privacy Notice
+- Instagram icon and link
+- TikTok icon and link
+- Email
+- Phone
+- WhatsApp
+- Address
+- Copyright
+
+Instagram:
+https://www.instagram.com/thenextproteinnepal
+
+TikTok:
+https://www.tiktok.com/@thenextproteinnepal
+
+Do not display empty social-media icons for Facebook, YouTube, LinkedIn or X until the profiles exist.
+
+PRODUCTS PAGE
+Create a product-catalogue page.
+
+Because only one confirmed product currently exists, do not create fake products or unnecessary category filters.
+
+Include:
+- Editorial hero
+- Products introduction
+- Protein Loaf product card
+- “Coming Soon” area that can be hidden
+- Product image
+- 500 g package size
+- NPR 450
+- 21.37 g protein per 100 g
+- Short description
+- Dietary/allergen labels
+- “View Details”
+- “Enquire”
+
+Do not show:
+- Add to Cart
+- Quantity selector
+- Rating
+- Fake reviews
+- Fake inventory numbers
+
+PRODUCT DETAILS PAGE
+Product:
+Protein Loaf
+
+SKU:
+TNP-PL-888
+
+Category:
+Plant-Based Meat Alternative
+
+Status:
+Available
+
+Package options:
+- 500 g retail pack
+- 1 kg food-service pack
+
+Confirmed retail price:
+NPR 450 for 500 g
+
+Wholesale information:
+Available by enquiry; do not publicly display the wholesale price unless approved.
+
+Create:
+- Product image gallery
+- Packaging photographs
+- Cooked-food photographs
+- Product title
+- Short description
+- Package-size selector
+- Nutrition highlights
+- Retail price
+- Availability label
+- “Enquire on WhatsApp”
+- “Contact for Wholesale”
+- “Where to Buy” section
+- Product overview
+- Ingredients
+- Nutrition facts
+- Allergens
+- Cooking instructions
+- Storage instructions
+- Serving suggestions
+- FAQs
+
+Product overview:
+“Protein Loaf is a high-protein vegan meat alternative made primarily from wheat gluten, soybeans and mixed beans. It provides a firm, meat-like texture and can be sliced, diced, marinated, grilled, fried or added to everyday meals.”
+
+Main protein source:
+- Vital wheat gluten/seitan
+- Soybeans
+- Mixed beans
+
+Flavour ingredients:
+- Black pepper
+- Cumin
+- Coriander
+- Cardamom
+- Chilli flakes
+- Bay leaves
+- Salt
+
+Oils listed:
+- Olive oil
+- Mustard-seed oil
+- Sesame-seed oil
+
+ALLERGEN WARNING
+Display prominently:
+
+“Contains wheat/gluten, soy and sesame.”
+
+Also display:
+“Not suitable for individuals with coeliac disease or medically diagnosed gluten intolerance.”
+
+Do not label the product:
+- Gluten-free
+- Soy-free
+- Sesame-free
+
+NUTRITION TABLE
+Use the provided values per 100 g:
+
+- Protein: 21.37 g
+- Total carbohydrate: 19.19 g
+- Moisture: 53.67 g
+- Ash: 5.25 g
+- Added sugar: 0 g
+- Total fat: 0.52 g
+- Cholesterol: 0
+
+Do not invent calories, fibre, sodium, saturated fat or micronutrients.
+
+COOKING INFORMATION
+Use:
+
+“Thaw before use. Slice or cube as desired. For better flavour and texture, marinate for 15–30 minutes. Pan-fry, grill, bake, deep-fry, air-fry or add to curries and stir-fries. Cook until heated through and lightly browned.”
+
+Cooking temperature:
+170–190°C
+
+Food-safety instruction:
+Internal temperature should reach at least 75°C before serving.
+
+Preparation time:
+Approximately 5–10 minutes, excluding thawing.
+
+STORAGE INFORMATION
+Use:
+
+- Keep frozen at −18°C or below.
+- Thaw overnight in a refrigerator at 0–4°C, or keep the sealed package in cold water for quicker thawing.
+- Do not leave at room temperature for an extended period.
+- After opening, refrigerate in an airtight container.
+- Do not refreeze after thawing.
+
+The client document gives conflicting after-opening guidance of three days and five days. Do not publish either value until confirmed.
+
+Shelf life:
+12 months continuously frozen at −18°C or below.
+
+SERVING IDEAS
+Show:
+- Curries
+- Chilli
+- Stir-fries
+- Fried rice
+- Noodles
+- Burgers
+- Sandwiches
+- Wraps
+- Tacos
+- Pizza
+- BBQ skewers
+- Salads
+
+ABOUT US PAGE
+Create:
+- Large brand-story hero
+- Company origin
+- Mission
+- Vision
+- Values
+- Research and development
+- Ingredient sourcing
+- Manufacturing
+- Quality control
+- Sustainability
+- Founder placeholder
+- Team placeholder
+- Partnership CTA
+
+Mission:
+“To provide innovative, nutritious and delicious plant-based meat products that empower people to make healthier and more sustainable food choices.”
+
+Vision:
+“To become Nepal’s leading plant-based protein company and a trusted brand across South Asia, inspiring a future where sustainable food is accessible to everyone.”
+
+Values:
+- Sustainability
+- Innovation
+- Quality Without Compromise
+- Health and Nutrition
+- Customer Satisfaction
+- Integrity and Transparency
+- Respect for Animals
+- Continuous Improvement
+
+Do not invent:
+- Founder name
+- Founder photograph
+- Team members
+- Business start date
+- Awards
+- Certifications
+- Factory certifications
+
+Use clearly labelled placeholders for these items.
+
+PROTEIN GUIDE PAGE
+Create an educational page with:
+- What protein does
+- What plant protein is
+- What seitan is
+- Protein sources used in Protein Loaf
+- Plant protein and active lifestyles
+- How to include Protein Loaf in balanced meals
+- Understanding a nutrition label
+- Allergen awareness
+- Educational FAQs
+- Product CTA
+
+Use this disclaimer:
+“This information is provided for general educational purposes and is not a substitute for medical or personalised nutrition advice.”
+
+Do not claim:
+- Disease prevention
+- Weight-loss guarantees
+- Muscle-gain guarantees
+- Better health outcomes
+- Medical treatment
+
+BLOG PAGE
+Create:
+- Featured article
+- Article grid
+- Search
+- Topic filters
+- Author
+- Publication date
+- Reading time
+- Pagination or Load More button
+
+Categories:
+- Plant-Based Nutrition
+- Seitan Education
+- Nepalese Food
+- Sustainability
+- Product Updates
+- Restaurant and Food Service
+- Recipes and Serving Ideas
+
+Also create an individual blog-article template.
+
+FAQ PAGE
+Create searchable accordion sections:
+
+Product:
+- What is Protein Loaf?
+- Is it completely vegan?
+- What is its main protein source?
+- How much protein does it contain?
+
+Allergens:
+- Does it contain soy?
+- Does it contain gluten?
+- Does it contain sesame?
+- Does it contain nuts?
+
+Cooking:
+- How is it prepared?
+- Can it be grilled?
+- Can it be air-fried?
+- Does it need to be thawed?
+
+Storage:
+- Should it be frozen?
+- How should it be stored after opening?
+- What is its shelf life?
+
+Availability:
+- Where can customers buy it?
+- Is direct delivery available?
+- Is wholesale ordering available?
+- Can restaurants, retailers and gyms stock it?
+
+Use approved answers only. Label unanswered questions as “Client confirmation required” in the design file.
+
+CONTACT PAGE
+Create a friendly two-column contact page.
+
+Left column:
+- Heading: “LET’S TALK ABOUT THE FUTURE OF FOOD”
+- Email
+- Phone
+- WhatsApp
+- Address
+- Business hours placeholder
+- Google Maps embed
+- Instagram
+- TikTok
+
+Right column:
+Contact form fields:
+- Full Name
+- Email Address
+- Phone/WhatsApp
+- Organisation Name
+- Enquiry Type
+- Subject
+- Message
+- Preferred Contact Method
+- Optional File Attachment
+- Consent Checkbox
+- Submit Button
+
+Enquiry types:
+- General Enquiry
+- Product Question
+- Complaint
+- Wholesale Enquiry
+- Retail Partnership
+- Restaurant Partnership
+- Gym Partnership
+- Feedback
+
+Button:
+“Send Enquiry”
+
+Create:
+- Default state
+- Focus state
+- Validation error
+- Loading state
+- Success state
+- Failure state
+
+Success message:
+“Thank you for contacting The Next Protein Nepal. Our team will respond as soon as possible.”
+
+Do not promise a one-minute response.
+
+WHOLESALE PAGE
+Heading:
+“BRING PLANT-POWERED PROTEIN TO YOUR BUSINESS”
+
+Audience:
+- Restaurants
+- Cafés
+- Hotels
+- Retailers
+- Distributors
+- Gyms
+- Caterers
+
+Include benefits:
+- Versatile product
+- Food-service pack
+- Nepalese manufacturing
+- Wholesale support
+- Menu flexibility
+
+Wholesale form:
+- Business Name
+- Contact Person
+- Business Type
+- Business Email
+- Phone/WhatsApp
+- Business Address
+- City
+- Estimated Monthly Requirement
+- Package Size Required
+- Intended Use
+- Additional Message
+- Consent Checkbox
+- “Request Wholesale Information”
+
+TERMS PAGE
+Create a clean legal-layout template containing:
+- Website use
+- Product information
+- Intellectual property
+- Enquiry submissions
+- Third-party links
+- Limitation of liability
+- Changes to terms
+- Governing law
+- Contact information
+
+Mark all legal copy:
+“Final legal review required.”
+
+PRIVACY NOTICE
+Even though a separate Privacy Policy was initially not requested, include a privacy notice because the contact forms collect personal information.
+
+Include a visible link beside every form:
+“View Privacy Notice”
+
+DESIGN COMPONENTS
+Create reusable Auto Layout components:
+
+- Desktop header
+- Mobile header
+- Navigation dropdown
+- Buttons
+- Text links
+- Product card
+- Nutrition statistic
+- Benefit badge
+- Audience card
+- Blog card
+- FAQ accordion
+- Form field
+- Textarea
+- Select menu
+- Checkbox
+- Radio button
+- Toast notification
+- Modal
+- Mobile navigation drawer
+- Image gallery
+- Tab control
+- Footer
+- WhatsApp floating button
+- Cookie/privacy notice
+
+COMPONENT VARIANTS
+Create:
+- Default
+- Hover
+- Pressed
+- Focus
+- Selected
+- Disabled
+- Loading
+- Error
+- Success
+
+RESPONSIVE DESIGN
+Desktop:
+- Wide editorial layouts
+- Large hero photography
+- Multi-column content
+
+Tablet:
+- Two-column sections
+- Reduced typography
+- Collapsible navigation
+
+Mobile:
+- Single-column layout
+- Compact symbol-logo placeholder
+- Full-width primary buttons
+- Swipeable product gallery
+- Collapsible FAQ
+- Collapsible footer columns
+- Sticky WhatsApp enquiry button
+- No horizontal scrolling
+- Minimum touch target of 44 × 44 px
+
+PROTOTYPE CONNECTIONS
+Connect:
+- Logo to Home
+- Products navigation to Products
+- Product card to Protein Loaf details
+- “Explore Our Products” to Products
+- “Discover Plant-Based Living” to Protein Guide
+- “View Product Details” to Product Details
+- WhatsApp buttons to an external-link placeholder
+- “Partner With Us” to Wholesale Enquiry
+- Blog cards to Article Details
+- FAQ accordions to open/closed variants
+- Mobile menu to its overlay
+- Contact form to success state
+- Wholesale form to success state
+- Map button to external map placeholder
+
+ACCESSIBILITY
+- Meet WCAG AA colour contrast
+- Use visible keyboard-focus states
+- Keep labels above fields
+- Do not use placeholders as field labels
+- Use descriptive button text
+- Add developer notes for image alt text
+- Do not communicate allergen warnings with colour alone
+- Use icons plus text for warnings
+- Maintain readable text width
+- Use minimum 16 px mobile body text
+- Provide reduced-motion alternatives
+
+CONTENT AND CLAIM RULES
+Do not invent:
+- Products
+- Testimonials
+- Customer ratings
+- Certifications
+- Awards
+- Founders
+- Team members
+- Retail partners
+- Environmental percentages
+- Nutritional values
+- Medical benefits
+- Stock levels
+- Delivery promises
+
+Use “Content Required” placeholders where verified information is missing.
+
+FINAL OUTPUT
+Deliver:
+- Desktop designs for all required pages
+- Tablet adaptations
+- Mobile adaptations
+- Complete component library
+- Colour and type styles
+- Responsive Auto Layout
+- Interactive prototype
+- Developer annotations
+- Asset checklist
+- Missing-content notes
+- Original design distinct from all reference websites
