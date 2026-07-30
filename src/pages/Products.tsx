@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import loaf from './../../assets/Protein Loaf.png'
 export default function Products() {
   return (
     <div className="pt-16">
@@ -40,7 +40,7 @@ export default function Products() {
             <div className="bg-white rounded-3xl overflow-hidden border border-[#E8DDCD] shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-[4/3] overflow-hidden bg-[#E8DDCD]">
                 <img
-                  src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop&auto=format"
+                  src={loaf}
                   alt="Protein Loaf — plant-based meat alternative"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -60,7 +60,7 @@ export default function Products() {
                     <p className="font-body text-[#676A61] text-sm mt-1">SKU: TNP-PL-888</p>
                   </div>
                   <div className="text-right flex-shrink-0">
-                    <div className="font-display font-black text-2xl text-[#264F24]">NPR 450</div>
+                    <div className="font-display font-black text-2xl text-[#264F24]">NPR 350</div>
                     <div className="font-body text-xs text-[#676A61]">500 g retail pack</div>
                   </div>
                 </div>

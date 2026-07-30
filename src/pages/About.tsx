@@ -1,4 +1,11 @@
 import { Link } from 'react-router-dom'
+import chef from './../../assets/Chef.png'
+import research from './../../assets/Research and Development.png'
+import photo1 from './../../assets/Sustainability.png'
+import chairmanImage from './../../assets/Deepak Sapkota-Chairman.jpg'
+import coFounderImage from './../../assets/Anjalee Sawad-Co founder.jpeg'
+import ceoImage from './../../assets/Ghanshyam Poyudal-CEO.jpg'
+import quality from './../../assets/Quaity Control.png'
 
 const values = [
   { icon: '🌱', title: 'Sustainability', desc: 'Building food systems that are responsible today and resilient for the future.' },
@@ -9,6 +16,24 @@ const values = [
   { icon: '🔍', title: 'Integrity & Transparency', desc: 'We share what is in our products, how they are made and where they come from.' },
   { icon: '🐾', title: 'Respect for Animals', desc: 'Choosing plant-based is an act of care for every living creature.' },
   { icon: '📈', title: 'Continuous Improvement', desc: 'We believe every product and process can always be made better.' },
+]
+
+const teamMembers = [
+  {
+    name: 'Deepak Sapkota',
+    role: 'Chairman',
+    image: chairmanImage,
+  },
+  {
+    name: 'Anjalee Sawad',
+    role: 'Co-Founder',
+    image: coFounderImage,
+  },
+  {
+    name: 'Ghanshyam Poudyal',
+    role: 'CEO',
+    image: ceoImage,
+  },
 ]
 
 export default function About() {
@@ -59,7 +84,7 @@ export default function About() {
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-[#E8DDCD] mt-8">
                 <img
-                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=533&fit=crop&auto=format"
+                  src={chef}
                   alt="Plant-based ingredients and spices"
                   className="w-full h-full object-cover"
                 />
@@ -126,17 +151,17 @@ export default function About() {
             {[
               {
                 title: 'Research & Development',
-                img: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop&auto=format',
+                img:research,
                 desc: 'Our product development focuses on matching the texture, flavour and nutritional profile that consumers expect from premium protein. Every formulation is tested until it earns a place on the table.',
               },
               {
                 title: 'Quality Control',
-                img: 'https://images.unsplash.com/photo-1576867757603-05b134ebc379?w=600&h=400&fit=crop&auto=format',
+                img: quality,
                 desc: 'Nutrition values are laboratory-analysed by Miron Laboratory and Research Centre. We do not publish claims we cannot verify.',
               },
               {
                 title: 'Sustainability',
-                img: 'https://images.unsplash.com/photo-1500076656116-558758c991c1?w=600&h=400&fit=crop&auto=format',
+                img:photo1,
                 desc: "Plant-based food production uses fewer natural resources than conventional meat. We are committed to responsible manufacturing and locally sourced ingredients wherever possible.",
               },
             ].map((item) => (
@@ -155,25 +180,48 @@ export default function About() {
       </section>
 
       {/* Team placeholder */}
-      <section className="bg-[#F5EDE1] py-24">
-        <div className="max-w-[1240px] mx-auto px-6 lg:px-10">
-          <h2 className="font-display font-black text-4xl uppercase text-[#22231F] mb-6">The Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {['Founder / CEO', 'Head of Product Development', 'Operations Manager'].map((role) => (
-              <div key={role} className="bg-[#E8DDCD] rounded-2xl p-8 border border-[#D4C9B8]">
-                <div className="w-16 h-16 rounded-full bg-[#264F24]/20 flex items-center justify-center mb-4">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#264F24" strokeWidth="1.5">
-                    <circle cx="12" cy="8" r="4" />
-                    <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
-                  </svg>
-                </div>
-                <div className="font-display font-black text-sm uppercase text-[#22231F] mb-1">{role}</div>
-                <div className="font-body text-xs text-[#676A61] italic">Content Required — Placeholder</div>
-              </div>
-            ))}
+      <section className="bg-[#F5EDE1] py-24 lg:py-32">
+  <div className="max-w-[1240px] mx-auto px-6 lg:px-10">
+    <div className="mb-12">
+      <p className="font-display font-bold text-xs tracking-[0.2em] uppercase text-[#557A35] mb-3">
+        The People Behind the Brand
+      </p>
+
+      <h2 className="font-display font-black text-4xl lg:text-6xl uppercase text-[#22231F]">
+        The Team
+      </h2>
+    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {teamMembers.map((member) => (
+        <div
+          key={member.name}
+          className="group bg-[#FCFAF6] rounded-2xl overflow-hidden border border-[#D4C9B8] hover:shadow-xl transition-all duration-300"
+        >
+          {/* Large team image */}
+          <div className="w-full h-[380px] lg:h-[430px] overflow-hidden bg-[#E8DDCD]">
+            <img
+              src={member.image}
+              alt={`${member.name} — ${member.role}`}
+              className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          {/* Team information */}
+          <div className="p-6 text-center">
+            <h3 className="font-display font-black text-xl uppercase text-[#22231F] mb-2">
+              {member.name}
+            </h3>
+
+            <p className="font-body text-sm font-semibold uppercase tracking-wider text-[#557A35]">
+              {member.role}
+            </p>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Partnership CTA */}
       <section className="bg-[#173A22] py-20">

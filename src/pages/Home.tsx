@@ -1,6 +1,16 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+import loaf from './../../assets/Protein Loaf.png'
+import chef from './../../assets/Chef.png'
+import noodles from './../../assets/02_seitan_noodles.png'
+import burger from './../../assets/03_seitan_burger.png'
+import curry from './../../assets/04_seitan_curry.png'
+import stirFry from './../../assets/04_seitan_stir_fry.png'
+import wrap from './../../assets/05_seitan_wrap.png'
+import bbq from './../../assets/06_seitan_bbq.png'
+import home from './../../assets/HOME.png'
+
 const benefits = [
   '100% Plant-Based',
   '21.37 g Protein per 100 g',
@@ -11,21 +21,48 @@ const benefits = [
 ]
 
 const cookingMethods = [
-  { label: 'Curry', emoji: '🍛', desc: 'Rich Nepalese curries with Protein Loaf as the star ingredient.' },
-  { label: 'Momos', emoji: '🥟', desc: 'Steamed or fried dumplings filled with seasoned plant-based protein.' },
-  { label: 'Sekuwa', emoji: '🍢', desc: 'Marinated skewers grilled to perfection over open flame.' },
-  { label: 'Burgers', emoji: '🍔', desc: 'Satisfying burgers with a firm, juicy plant-based patty.' },
-  { label: 'Stir-Fries', emoji: '🥘', desc: 'Quick high-heat cooking with vegetables and sauces.' },
-  { label: 'Noodles', emoji: '🍜', desc: 'Tossed through ramen, thukpa, or wok noodle dishes.' },
-  { label: 'Wraps', emoji: '🌯', desc: 'Rolled into flatbreads with fresh salad and sauces.' },
-  { label: 'BBQ', emoji: '🔥', desc: 'Charred on the grill with your favourite marinade.' },
+  {
+    label: 'Noodles',
+    emoji: '🍜',
+    image: noodles,
+    desc: 'Seitan stir-fried with noodles and fresh veggies in a bold, flavorful Nepali-style sauce.',
+  },
+  {
+    label: 'Burger',
+    emoji: '🍔',
+    image: burger,
+    desc: 'Juicy seitan patty with fresh veggies and smoky sauce in a soft, toasted bun.',
+  },
+  {
+    label: 'Curry',
+    emoji: '🍛',
+    image: curry,
+    desc: 'Hearty seitan pieces simmered in a traditional Nepali curry with aromatic spices.',
+  },
+  {
+    label: 'Stir Fry',
+    emoji: '🥘',
+    image: stirFry,
+    desc: 'Seitan and fresh vegetables stir-fried in a savory blend of Nepali spices and sauces.',
+  },
+  {
+    label: 'Wrap',
+    emoji: '🌯',
+    image: wrap,
+    desc: 'Spiced seitan with crunchy veggies and tangy sauce wrapped to perfection.',
+  },
+  {
+    label: 'BBQ',
+    emoji: '🔥',
+    image: bbq,
+    desc: 'Marinated seitan grilled to perfection with authentic Nepali spices and smoky flavor.',
+  },
 ]
-
 const audienceCards = [
   {
     title: 'Home Kitchens',
     desc: 'A protein-rich alternative for everyday meals. Cook it exactly the way your family already loves eating.',
-    img: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop&auto=format',
+    img: home,
     cta: 'Explore Recipes',
     to: '/blog',
   },
@@ -118,6 +155,7 @@ const whyPanels = [
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState(0)
+  const activeMethod = cookingMethods[activeTab]
 
   return (
     <div className="overflow-x-hidden">
@@ -218,7 +256,7 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#E8DDCD]">
                 <img
-                  src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop&auto=format"
+                  src={loaf}
                   alt="Protein Loaf — high-protein plant-based meat alternative"
                   className="w-full h-full object-cover"
                 />
@@ -303,54 +341,48 @@ export default function Home() {
 
           {/* Tab selector */}
           <div className="flex flex-wrap gap-2 mb-10">
-            {cookingMethods.map((method, i) => (
-              <button
-                key={method.label}
-                onClick={() => setActiveTab(i)}
-                className={`px-4 py-2 rounded-full font-body text-sm font-semibold transition-all duration-200 ${
-                  activeTab === i
-                    ? 'bg-[#264F24] text-[#F5EDE1]'
-                    : 'bg-[#E8DDCD] text-[#22231F] hover:bg-[#264F24]/10'
-                }`}
-              >
-                {method.emoji} {method.label}
-              </button>
-            ))}
-          </div>
+  {cookingMethods.map((method, index) => (
+    <button
+      key={method.label}
+      type="button"
+      onClick={() => setActiveTab(index)}
+      className={`px-4 py-2 rounded-full font-body text-sm font-semibold transition-all duration-200 ${
+        activeTab === index
+          ? 'bg-[#264F24] text-[#F5EDE1]'
+          : 'bg-[#E8DDCD] text-[#22231F] hover:bg-[#264F24]/10'
+      }`}
+    >
+      {method.emoji} {method.label}
+    </button>
+  ))}
+</div>
 
-          {/* Active panel */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#E8DDCD]">
-              <img
-                src={`https://images.unsplash.com/photo-${
-                  [
-                    '1585032226651-759b368d7246',
-                    '1625220194771-7ebdea0a9ccd',
-                    '1504674900247-0877df9cc836',
-                    '1568901346375-23c9450c58cd',
-                    '1512058564366-18510be2db19',
-                    '1565299585323-38d6b0865b47',
-                    '1569718212165-3a8278d5f624',
-                    '1555939594-58d7cb561ad1',
-                  ][activeTab]
-                }?w=700&h=525&fit=crop&auto=format`}
-                alt={`Protein Loaf prepared as ${cookingMethods[activeTab].label}`}
-                className="w-full h-full object-cover transition-opacity duration-300"
-              />
-            </div>
-            <div className="flex flex-col justify-center">
-              <div className="text-5xl mb-4">{cookingMethods[activeTab].emoji}</div>
-              <h3 className="font-display font-black text-3xl text-[#22231F] uppercase mb-4">
-                {cookingMethods[activeTab].label}
-              </h3>
-              <p className="font-body text-[#676A61] text-lg leading-relaxed mb-6">
-                {cookingMethods[activeTab].desc}
-              </p>
-              <p className="font-body text-sm text-[#557A35] font-semibold italic">
-                * Photography: placeholder. Commissioned food photography coming soon.
-              </p>
-            </div>
-          </div>
+{/* Active cooking method */}
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+  <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#E8DDCD]">
+    <img
+      key={activeMethod.image}
+      src={activeMethod.image}
+      alt={`Protein Loaf prepared as ${activeMethod.label}`}
+      className="w-full h-full object-cover animate-fade-in"
+    />
+  </div>
+
+  <div className="flex flex-col justify-center">
+    <div className="text-5xl mb-4">
+      {activeMethod.emoji}
+    </div>
+
+    <h3 className="font-display font-black text-3xl lg:text-4xl text-[#22231F] uppercase mb-4">
+      {activeMethod.label}
+    </h3>
+
+    <p className="font-body text-[#676A61] text-lg leading-relaxed">
+      {activeMethod.desc}
+    </p>
+  </div>
+</div>
+         
         </div>
       </section>
 
@@ -413,7 +445,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-[#E8DDCD]">
                   <img
-                    src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=533&fit=crop&auto=format"
+                    src={chef}
                     alt="Food preparation and kitchen innovation"
                     className="w-full h-full object-cover"
                   />
