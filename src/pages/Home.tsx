@@ -9,7 +9,7 @@ import curry from './../../assets/04_seitan_curry.png'
 import stirFry from './../../assets/04_seitan_stir_fry.png'
 import wrap from './../../assets/05_seitan_wrap.png'
 import bbq from './../../assets/06_seitan_bbq.png'
-import home from './../../assets/HOME.png'
+import home from './../../assets/hello.png'
 
 const benefits = [
   '100% Plant-Based',
