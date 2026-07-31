@@ -1,21 +1,21 @@
 import { Link } from 'react-router-dom'
 import chef from './../../assets/Chef.png'
-import research from './../../assets/Research and Development.png'
+import research from './../../assets/research-development.png'
 import photo1 from './../../assets/Sustainability.png'
-import chairmanImage from './../../assets/Deepak Sapkota-Chairman.jpg'
-import coFounderImage from './../../assets/Anjalee Sawad-Co founder.jpeg'
-import ceoImage from './../../assets/Ghanshyam Poyudal-CEO.jpg'
-import quality from './../../assets/Quaity Control.png'
+import chairmanImage from './../../assets/deepak-sapkota-chairman.jpg'
+import coFounderImage from './../../assets/anjalee-sawad-cofounder.jpeg'
+import ceoImage from './../../assets/ghanshyam-poudyal-ceo.jpg'
+import quality from './../../assets/quality-control.png'
 
 const values = [
-  { icon: '🌱', title: 'Sustainability', desc: 'Building food systems that are responsible today and resilient for the future.' },
-  { icon: '💡', title: 'Innovation', desc: 'Applying food science and creativity to create products Nepal has never seen before.' },
-  { icon: '✅', title: 'Quality Without Compromise', desc: 'Every batch is made to the same high standard — no shortcuts.' },
-  { icon: '💪', title: 'Health & Nutrition', desc: 'Products designed to nourish bodies and support active, balanced lives.' },
-  { icon: '🤝', title: 'Customer Satisfaction', desc: 'We listen, learn and improve because our customers deserve the best.' },
-  { icon: '🔍', title: 'Integrity & Transparency', desc: 'We share what is in our products, how they are made and where they come from.' },
-  { icon: '🐾', title: 'Respect for Animals', desc: 'Choosing plant-based is an act of care for every living creature.' },
-  { icon: '📈', title: 'Continuous Improvement', desc: 'We believe every product and process can always be made better.' },
+  { icon: '🌾', title: 'Sustainability', desc: 'Building food systems that are responsible today and resilient for the future.' },
+  { icon: '🚀', title: 'Innovation', desc: 'Applying food science and creativity to create products Nepal has never seen before.' },
+  { icon: '💎', title: 'Quality Without Compromise', desc: 'Every batch is made to the same high standard — no shortcuts.' },
+  { icon: '❤️', title: 'Health & Nutrition', desc: 'Products designed to nourish bodies and support active, balanced lives.' },
+  { icon: '🥰', title: 'Customer Satisfaction', desc: 'We listen, learn and improve because our customers deserve the best.' },
+  { icon: '📖', title: 'Integrity & Transparency', desc: 'We share what is in our products, how they are made and where they come from.' },
+  { icon: '🕊️', title: 'Respect for Animals', desc: 'Choosing plant-based is an act of care for every living creature.' },
+  { icon: '🌊', title: 'Continuous Improvement', desc: 'We believe every product and process can always be made better.' },
 ]
 
 const teamMembers = [

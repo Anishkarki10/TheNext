@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import loaf from './../../assets/Protein Loaf.png'
+import loaf from './../../assets/Protein-Loaf.png'
 import chef from './../../assets/Chef.png'
 import noodles from './../../assets/02_seitan_noodles.png'
 import burger from './../../assets/03_seitan_burger.png'
@@ -9,7 +9,7 @@ import curry from './../../assets/04_seitan_curry.png'
 import stirFry from './../../assets/04_seitan_stir_fry.png'
 import wrap from './../../assets/05_seitan_wrap.png'
 import bbq from './../../assets/06_seitan_bbq.png'
-import home from './../../assets/hello.png'
+import home from './../../assets/home.png'
 
 const benefits = [
   '100% Plant-Based',

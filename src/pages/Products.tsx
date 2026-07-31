@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import loaf from './../../assets/Protein Loaf.png'
+import loaf from './../../assets/Protein-Loaf.png'
 export default function Products() {
   return (
     <div className="pt-16">
