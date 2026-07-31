@@ -298,7 +298,7 @@ export default function Home() {
               {/* Product meta */}
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="px-3 py-1.5 rounded-full bg-[#E8DDCD] font-body text-xs font-semibold text-[#22231F]">500 g Pack</span>
-                <span className="px-3 py-1.5 rounded-full bg-[#E8DDCD] font-body text-xs font-semibold text-[#22231F]">NPR 450</span>
+                <span className="px-3 py-1.5 rounded-full bg-[#E8DDCD] font-body text-xs font-semibold text-[#22231F]">NPR 350</span>
                 <span className="px-3 py-1.5 rounded-full bg-[#264F24]/10 text-[#264F24] font-body text-xs font-semibold">● Available</span>
               </div>
 
