@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import product from "./../../assets/PF-1.png"
+import product2 from "./../../assets/PL-2.png"
+import product3 from "./../../assets/PL-3.png"
 
 const gallery = [
-  'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop&auto=format',
-  'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&h=600&fit=crop&auto=format',
-  'https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&h=600&fit=crop&auto=format',
-  'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop&auto=format',
+  product,product2,product3
 ]
 
 const faqs = [
@@ -61,9 +61,7 @@ export default function ProductDetail() {
                   </button>
                 ))}
               </div>
-              <p className="font-body text-xs text-[#676A61] italic mt-3">
-                * Placeholder photography. Commissioned product images coming soon.
-              </p>
+        
             </div>
 
             {/* Product info */}
@@ -113,7 +111,7 @@ export default function ProductDetail() {
               {/* Price */}
               {selectedPack === '500g' ? (
                 <div className="mb-6">
-                  <div className="font-display font-black text-3xl text-[#264F24]">NPR 450</div>
+                  <div className="font-display font-black text-3xl text-[#264F24]">NPR 350</div>
                   <p className="font-body text-xs text-[#676A61]">Retail price for 500 g pack · Approx. 5 servings (100 g each)</p>
                 </div>
               ) : (
