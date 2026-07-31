@@ -10,6 +10,12 @@ import stirFry from './../../assets/04_seitan_stir_fry.png'
 import wrap from './../../assets/05_seitan_wrap.png'
 import bbq from './../../assets/06_seitan_bbq.png'
 import home from './../../assets/home.png'
+import chowMein from './../../assets/chowmin.jpeg'
+import nuggets from './../../assets/nuggets.jpeg'
+import chilly from './../../assets/chilly.jpeg'
+import choila from './../../assets/Choila.png'
+import biryani from './../../assets/briyana.jpeg'
+import momo from './../../assets/momo.jpeg'
 
 const benefits = [
   '100% Plant-Based',
@@ -21,6 +27,42 @@ const benefits = [
 ]
 
 const cookingMethods = [
+  {
+    label: 'Momo',
+    emoji: '🥟',
+    image: momo,
+    desc: 'Juicy plant-based momo filled with seasoned seitan, vegetables and traditional Nepali spices.',
+  },
+  {
+    label: 'Chow Mein',
+    emoji: '🍜',
+    image: chowMein,
+    desc: 'Seitan tossed with stir-fried noodles, crunchy vegetables and a savoury Nepali-style sauce.',
+  },
+  {
+    label: 'Nuggets',
+    emoji: '🍗',
+    image: nuggets,
+    desc: 'Crispy plant-based nuggets with a golden coating and a tender, protein-rich seitan centre.',
+  },
+  {
+    label: 'Chilli',
+    emoji: '🌶️',
+    image: chilly,
+    desc: 'Crispy seitan pieces tossed with peppers, onions and a spicy, tangy chilli sauce.',
+  },
+  {
+    label: 'Choila',
+    emoji: '🔥',
+    image: choila,
+    desc: 'Smoky seitan mixed with mustard oil, herbs and bold traditional Nepali choila spices.',
+  },
+  {
+    label: 'Biryani',
+    emoji: '🍚',
+    image: biryani,
+    desc: 'Fragrant basmati rice layered with spiced seitan, aromatic herbs and warming spices.',
+  },
   {
     label: 'Noodles',
     emoji: '🍜',
