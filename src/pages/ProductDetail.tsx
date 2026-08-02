@@ -89,7 +89,7 @@ export default function ProductDetail() {
                 <p className="font-body text-sm font-semibold text-[#22231F] mb-3">Package Size</p>
                 <div className="flex gap-3">
                   {[
-                    { label: '500 g', val: '500g', price: 'NPR 450 (Retail)' },
+                    { label: '500 g', val: '500g', price: 'NPR 350 (Retail)' },
                     { label: '1 kg', val: '1kg', price: 'Enquire for Wholesale' },
                   ].map((pack) => (
                     <button
