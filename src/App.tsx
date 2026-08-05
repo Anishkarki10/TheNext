@@ -13,17 +13,24 @@ import Contact from './pages/Contact'
 import Wholesale from './pages/Wholesale'
 import Terms from './pages/Terms'
 import Privacy from './pages/Privacy'
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
+
       <div className="min-h-screen flex flex-col">
         <Header />
+
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
-            <Route path="/products/protein-loaf" element={<ProductDetail />} />
+            <Route
+              path="/products/protein-loaf"
+              element={<ProductDetail />}
+            />
             <Route path="/about" element={<About />} />
             <Route path="/protein-guide" element={<ProteinGuide />} />
             <Route path="/blog" element={<Blog />} />
@@ -34,9 +41,10 @@ export default function App() {
             <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </main>
+
         <Footer />
         <WhatsAppButton />
       </div>
     </BrowserRouter>
-  )
+  );
 }
