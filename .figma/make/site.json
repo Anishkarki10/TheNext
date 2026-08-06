@@ -1,7 +1,7 @@
 {
-  "description": "Streamline project management with an intuitive platform that enhances collaboration, task tracking, and productivity for teams of all sizes.",
+  "description": "The Next Protein Nepal provides high-protein plant-based meat alternatives made in Nepal.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
