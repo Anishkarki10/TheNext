@@ -4,7 +4,10 @@ import research from './../../assets/research-development.png'
 import photo1 from './../../assets/Sustainability.png'
 import chairmanImage from './../../assets/deepak-sapkota-chairman.jpg'
 import coFounderImage from './../../assets/anjalee-sawad-cofounder.jpeg'
+import coFounderImage1 from './../../assets/anilkarki.jpeg'
 import ceoImage from './../../assets/ghanshyam-poudyal-ceo.jpg'
+import ceoImage1 from './../../assets/abishek.jpeg'
+
 import quality from './../../assets/quality-control.png'
 
 const values = [
@@ -30,9 +33,18 @@ const teamMembers = [
     image: coFounderImage,
   },
   {
+    name: 'Anil Karki',
+    role: 'Co-Founder',
+    image: coFounderImage1,
+  },
+  {
     name: 'Ghanshyam Poudyal',
     role: 'CEO',
     image: ceoImage,
+  },  {
+    name: 'Avishek Giri',
+    role: 'International Coordinator',
+    image: ceoImage1,
   },
 ]
 
