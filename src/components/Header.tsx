@@ -37,6 +37,7 @@ const navLinks = [
   { label: 'About Us', to: '/about' },
   { label: 'Protein Guide', to: '/protein-guide' },
   { label: 'Blog', to: '/blog' },
+  { label: 'Recipes', to: '/recipes' },
   { label: 'FAQs', to: '/faq' },
   { label: 'Contact', to: '/contact' },
 ]

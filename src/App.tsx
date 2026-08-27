@@ -8,6 +8,7 @@ import ProductDetail from './pages/ProductDetail'
 import About from './pages/About'
 import ProteinGuide from './pages/ProteinGuide'
 import Blog from './pages/Blog'
+import Recipes from './pages/Recipes'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
 import Wholesale from './pages/Wholesale'
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/protein-guide" element={<ProteinGuide />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/recipes" element={<Recipes />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/wholesale" element={<Wholesale />} />
