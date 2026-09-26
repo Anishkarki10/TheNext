@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-green-primary: #264F24;
+  --color-green-deep: #173A22;
+  --color-green-leaf: #557A35;
+  --color-green-light: #A8C879;
+  --color-brown-earth: #30251D;
+  --color-cream-warm: #F5EDE1;
+  --color-beige-soft: #E8DDCD;
+  --color-off-white: #FCFAF6;
+  --color-charcoal: #22231F;
+  --color-text-muted: #676A61;
+  --font-display: 'League Spartan', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #FCFAF6;
+  color: #22231F;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.font-display {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.font-body {
+  font-family: 'Manrope', sans-serif;
+}

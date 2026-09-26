@@ -1,0 +1,25 @@
+# frontend
+frontend/node_modules/
+frontend/dist/
+
+# admin
+admin/node_modules/
+admin/dist/
+
+# backend (Python/Flask)
+backend/__pycache__/
+backend/**/__pycache__/
+backend/venv/
+backend/.venv/
+backend/instance/
+backend/*.db
+backend/uploads/
+
+# env files
+.env
+**/.env
+**/.env.local
+
+# OS
+.DS_Store
+**/.DS_Store
